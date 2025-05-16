@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rank Reveal - The Highlights of Iutbi</title>
+    <link rel="stylesheet" href="valorant.css">
+</head>
+<body>
+    <header>
+        <h1>The Highlights of Iutbi</h1>
+    </header>
+
+   <nav>
+    <ul class="nav-menu">
+        <li><a href="index.html">Welcome</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="best-moments.html">The Best Moments</a></li>
+        <li><a href="funsies.html">The Funsies</a></li>
+        <li><a href="rank-reveal.html">Rank Reveal</a></li>
+        <li><a href="socials.html">Socials</a></li>
+    </ul>
+</nav>
+
+    <main>
+        <section id="rank-reveal">
+            <article>
+                <h2>Rank Reveal</h2>
+                
+                <div class="rank-container">
+  
+                    <div class="rank-section">
+                        <h3>Peak Rank</h3>
+                        <div class="rank-images">
+                            <div class="rank-item">
+                                <div class="rank-reveal" onclick="revealRank(this)">
+                                    <div class="rank-hidden"></div>
+                                    <img src="immortal.png" alt="Immortal Rank" class="rank-image">
+                                </div>
+                                <p class="server-label">Asia Server</p>
+                            </div>
+                            <div class="rank-item">
+                                <div class="rank-reveal" onclick="revealRank(this)">
+                                    <div class="rank-hidden"></div>
+                                    <img src="platinum.png" alt="Platinum Rank" class="rank-image">
+                                </div>
+                                <p class="server-label">EU Server</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+    
+                    <div class="rank-section">
+                        <h3>Current Rank</h3>
+                        <div class="rank-images">
+                            <div class="rank-item">
+                                <div class="rank-reveal" onclick="revealRank(this)">
+                                    <div class="rank-hidden"></div>
+                                    <img src="diamond.png" alt="Diamond Rank" class="rank-image">
+                                </div>
+                                <p class="server-label">Asia Server</p>
+                            </div>
+                            <div class="rank-item">
+                                <div class="rank-reveal" onclick="revealRank(this)">
+                                    <div class="rank-hidden"></div>
+                                    <img src="gold.png" alt="Gold Rank" class="rank-image">
+                                </div>
+                                <p class="server-label">EU Server</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="iutbi.js"></script>
+</body>
+</html>

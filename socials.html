@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socials - The Highlights of Iutbi</title>
+    <link rel="stylesheet" href="valorant.css">
+    <style>
+
+        .socials-container {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+        }
+        
+        .social-item {
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+        
+        .social-item:hover {
+            transform: scale(1.1);
+        }
+        
+        .social-item img {
+            width: 100px;
+            height: 100px;
+            object-fit: contain;
+            cursor: pointer;
+            filter: drop-shadow(0 0 10px rgba(255, 0, 0, 0.5));
+        }
+        
+        .social-item p {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #46ffed;
+            text-shadow: 0 0 5px #4662ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>The Highlights of Iutbi</h1>
+    </header>
+
+    <nav>
+        <ul class="nav-menu">
+            <li><a href="index.html">Welcome</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="best-moments.html">The Best Moments</a></li>
+            <li><a href="funsies.html">The Funsies</a></li>
+            <li><a href="rank-reveal.html">Rank Reveal</a></li>
+            <li><a href="socials.html">Socials</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="socials">
+            <article>
+                <h2>Socials</h2>
+                <div class="socials-container">
+                    <div class="social-item">
+                        <a href="https://www.instagram.com/rlphcldoo/" target="_blank">
+                            <img src="insta.png" alt="Instagram">
+                        </a>
+                        <p>Instagram</p>
+                    </div>
+                    <div class="social-item">
+                        <a href="https://www.youtube.com/@Realityss12" target="_blank">
+                            <img src="youtube.png" alt="YouTube">
+                        </a>
+                        <p>YouTube</p>
+                    </div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <script src="iutbi.js"></script>
+</body>
+</html>
