@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const header = document.querySelector('header');
     const img = document.createElement('img');
-    img.src = 'valorant-logo.png'; 
+    img.src = 'valorant-logo.PNG'; 
     img.alt = 'Valorant Logo';
     img.id = 'logo';
     header.insertBefore(img, header.firstChild);
